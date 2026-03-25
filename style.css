@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #000000; 
-    color: #ffffff;
+    background-color: black; 
+    color: white;
 }
 
 .hero-section {
@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 60px 8%; 
-    border-bottom: 1px solid #1a1a1a;
+    border-bottom: 1px solid gray;
 }
 
 .top-bar {
@@ -23,7 +23,7 @@ body {
     font-size: 16px;
     letter-spacing: 4px;
     margin-bottom: 80px;
-    color: #aaaaaa;
+    color: gray;
 }
 
 .hero-conteudo {
@@ -47,7 +47,7 @@ body {
 
 .hero-texto p {
     line-height: 1.6;
-    color: #cccccc;
+    color: lightgray;
     font-size: 18px;
 }
 
@@ -72,7 +72,7 @@ body {
     letter-spacing: 6px;
     margin-bottom: 80px;
     font-weight: normal;
-    color: #ffffff;
+    color: white;
 }
 
 .conteudo {
@@ -88,7 +88,7 @@ body {
 
 .texto h3 {
     font-size: 32px;
-    color: #d4af37;
+    color: yellow;
     margin-bottom: 24px;
     font-weight: normal;
 }
@@ -96,7 +96,7 @@ body {
 .texto p {
     margin-bottom: 18px;
     line-height: 1.7;
-    color: #bbbbbb;
+    color: silver;
     font-size: 16px;
 }
 
@@ -110,15 +110,16 @@ body {
     width: 100%;
     max-width: 550px;
     border-radius: 6px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 10px 30px black;
 }
 
 footer {
     text-align: center;
     padding: 30px;
-    background-color: #030303;
-    color: #555555;
+    background-color: black;
+    color: gray;
     font-size: 14px;
     letter-spacing: 2px;
-    border-top: 1px solid #111;
+    border-top: 1px solid gray;
 }
+
