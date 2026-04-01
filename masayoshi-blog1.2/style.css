@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    text-align: center;
+    padding: 15px 8%; 
+    border-bottom: 1px solid dimgray;
+}
+
+header .logo {
+    width: 100px; 
+    height: auto;
+}
+
+
+.conteudo {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 20px 8%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    flex: 1; 
+    gap: 25px;
+}
+
+
+.historia {
+    text-align: center;
+}
+
+.historia h3 {
+    font-size: 28px;
+    color: goldenrod; 
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.historia p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: silver;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+.slogan {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.slogan p {
+    font-size: 18px;
+    font-style: italic;
+    color: lightgray;
+    line-height: 1.5;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px; 
+    background-color: black;
+    color: dimgray;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
